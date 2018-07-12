@@ -1,0 +1,102 @@
+#Header {
+  background-color: #252525;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0; }
+  #Header #HeaderContents {
+    height: 80px;
+    min-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    #Header #HeaderContents img {
+      width: 216px;
+      margin: 20px 30px; }
+    #Header #HeaderContents nav {
+      width: 850px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #Header #HeaderContents nav a {
+        color: white;
+        text-decoration: none;
+        line-height: 80px;
+        padding: 10px 2px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 200;
+        transition: .3s; }
+      #Header #HeaderContents nav span :hover {
+        border-bottom: 2px solid #2aabe2; }
+      #Header #HeaderContents nav span .active {
+        border-bottom: 2px solid grey; }
+      #Header #HeaderContents nav button {
+        color: #fff;
+        background: #2aabe2;
+        text-transform: uppercase;
+        border: none;
+        height: 40px;
+        font-weight: 300;
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 3px;
+        -webkit-transition: .3s;
+        transition: .3s; }
+        #Header #HeaderContents nav button:hover {
+          color: #2aabe2;
+          background: #fff; }
+  #Header #HeaderContents2 {
+    min-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    #Header #HeaderContents2 #logoContainer {
+      width: 216px;
+      margin: 20px 30px;
+      display: flex;
+      align-items: center; }
+      #Header #HeaderContents2 #logoContainer img {
+        height: 45px; }
+      #Header #HeaderContents2 #logoContainer h1 {
+        margin: 0 0 0 2px;
+        color: white;
+        letter-spacing: 6px;
+        font-family: 'Open Sans', sans-serif; }
+    #Header #HeaderContents2 nav {
+      width: 785px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #Header #HeaderContents2 nav a {
+        color: white;
+        text-decoration: none;
+        line-height: 80px;
+        padding: 10px 2px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 200;
+        transition: .3s; }
+      #Header #HeaderContents2 nav span :hover {
+        border-bottom: 2px solid #2aabe2; }
+      #Header #HeaderContents2 nav button {
+        color: #fff;
+        background: #2aabe2;
+        text-transform: uppercase;
+        border: none;
+        height: 40px;
+        font-weight: 300;
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 3px;
+        -webkit-transition: .3s;
+        transition: .3s; }
+        #Header #HeaderContents2 nav button:hover {
+          color: #2aabe2;
+          background: #fff; }

@@ -1,8 +1,6 @@
-body {
-  background: #8080ff; }
-
 .App {
-  text-align: center; }
+  text-align: center;
+  height: 100vh; }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -26,3 +24,10 @@ body {
     transform: rotate(0deg); }
   to {
     transform: rotate(360deg); } }
+
+.pageContainer {
+  margin: 80px auto;
+  background: linear-gradient(#1a1a1a, #1a1a1a);
+  height: calc(100% - 80px); }
+  .pageContainer.loginPage {
+    background: #2aabe2; }

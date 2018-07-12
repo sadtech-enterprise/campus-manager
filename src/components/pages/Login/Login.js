@@ -11,8 +11,10 @@ class Login extends Component {
   render() {
     return (<div className="pageContainer loginPage">
       <section id="login">
-        <img src={devLogo} />
+        <form>
+          <img src={devLogo} />
 
+        </form>
       </section>
 
     </div>)

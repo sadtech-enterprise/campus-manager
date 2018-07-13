@@ -13,7 +13,7 @@ class Login extends Component {
       <section id="login">
         <form>
           <img src={devLogo} />
-
+          <input type="submit" value="" />
         </form>
       </section>
 

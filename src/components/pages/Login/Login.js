@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import axios from "axios";
 import devLogo from "../../../assets/devmountainLogo.png";
 import "./Login.css";
 
@@ -14,8 +14,15 @@ class Login extends Component {
   }
 
   handleAuth(e) {
-    this.setState({ [e.target.name]: e.target.name });
+    this.setState({ [e.target.name]: e.target.value });
   }
+
+  submitAuth = () => {
+    axios.post("/api/auth", {
+      username: this.state.username,
+      password: this.state.password
+    });
+  };
 
   render() {
     console.log("AUTH", this.state);
@@ -36,7 +43,7 @@ class Login extends Component {
               Password:
               <input name="password" onChange={this.handleAuth} />
             </div>
-            <button>Submit</button>
+            <button onSubmit={() => this.submitAuth()}>Submit</button>
           </form>
         </section>
       </div>

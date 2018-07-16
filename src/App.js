@@ -6,7 +6,7 @@ import { routes } from './routes';
 
 class App extends Component {
   render() {
-    console.log(this.props);
+    // console.log(this.props);
     return (
       <div className="App">
         {this.props.location.pathname !== "/login" && <Header />}
